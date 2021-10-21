@@ -20,10 +20,10 @@ printf "|_|  |_|_____|_| \_|_____|_____/|_|  |_|______|______|______|\n$RESET"
 
 function run_test()
 {
-	# TEST1=$(echo $@ "; exit" | ./minishell 2>&-)
+	TEST1=$(echo $@ "; exit" | ./minishell 2>&-)
 	# TEST1=$(./minishell $0)
 	# TEST1=$(./minishell exit)
-	TEST1=$(./minishell -c "ls")
+	# TEST1=$(./minishell -c "ls")
 	echo $TEST1
 	# TEST2=$(bash -c "ls")
 	echo "$@"
