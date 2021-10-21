@@ -10,7 +10,6 @@ make re
 cd ../Minishell_tester
 cp ../minishell/minishell .
 chmod 755 minishell
-./minishell
 
 printf "$BOLDGREEN __  __ _____ _   _ _____  _____ _ _     _ __          \n"
 printf "|  \/  |_   _| \ | |_   _|/ ____| |  | |  ____| |    | |     \n"
