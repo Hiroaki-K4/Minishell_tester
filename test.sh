@@ -1,1 +1,2 @@
 echo "aaa"
+printf "aaa"
