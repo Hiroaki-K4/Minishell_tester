@@ -2,7 +2,7 @@
 # colors
 RESET="\033[0m"
 BOLDMAGENTA="\033[1m\033[35m"
-BLUE="\033[34m"
+BOLDMAGENTA="\033[34m"
 
 cd ../minishell
 make re
