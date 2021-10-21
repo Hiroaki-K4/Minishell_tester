@@ -21,11 +21,11 @@ printf "|_|  |_|_____|_| \_|_____|_____/|_|  |_|______|______|______|\n$RESET"
 function run_test()
 {
 	# TEST1=$(echo $@ "; exit" | ./minishell 2>&-)
-	TEST1=$(./minishell $0)
+	# TEST1=$(./minishell $0)
 	./minishell exit
 	echo $TEST1
 	TEST2=$(echo $@ "; exit" | bash 2>&-)
-	# echo $TEST2
+	echo $TEST2
 }
 
 run_test 'ls'
