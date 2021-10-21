@@ -10,7 +10,7 @@ printf "| |\/| | | | | . \` | | |  \___ \|  __  |  __| | |    | |     \n"
 printf "| |  | |_| |_| |\  |_| |_ ____) | |  | | |____| |____| |____ \n"
 printf "|_|  |_|_____|_| \_|_____|_____/|_|  |_|______|______|______|\n$RESET"
 
-cd minishell
+cd ../minishell
 make re
 cp minishell/minishell .
 ./minishell
