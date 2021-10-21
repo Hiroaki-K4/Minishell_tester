@@ -22,6 +22,8 @@ function run_test()
 {
 	TEST1=$(echo $@ "; exit" | ./minishell 2>&-)
 	echo $TEST1
+	TEST2=$(echo $@ "; exit" | bash 2>&-)
+	echo $TEST2
 }
 
 run_test 'ls'
