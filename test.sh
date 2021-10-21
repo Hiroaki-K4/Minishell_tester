@@ -13,5 +13,5 @@ printf "|_|  |_|_____|_| \_|_____|_____/|_|  |_|______|______|______|\n$RESET"
 cd ../minishell
 make re
 cd ../Minishell_tester
-cp minishell/minishell .
+cp ../minishell/minishell .
 ./minishell
