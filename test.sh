@@ -1,5 +1,7 @@
 
 BOLDMAGENTA="\033[1m\033[35m"
+echo -e "\e[36m水色（シアン）"
+
 
 
 printf "$BOLDMAGENTA __  __ _____ _   _ _____  _____ _    _ ______ _      _      \n"
