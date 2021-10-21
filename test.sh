@@ -24,6 +24,7 @@ function run_test()
 	# TEST1=$(./minishell $0)
 	# TEST1=$(./minishell exit)
 	TEST1=$(./minishell -c "ls")
+	printf "$TEST1"
 	echo $TEST1
 	TEST2=$(echo $@ "; exit" | bash 2>&-)
 	echo $TEST2
