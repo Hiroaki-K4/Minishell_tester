@@ -24,4 +24,4 @@ function run_test()
 	echo $TEST1
 }
 
-run_test 'echo test'
+run_test 'ls'
