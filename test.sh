@@ -23,8 +23,7 @@ function run_test()
 	# TEST1=$(echo $@ "; exit" | ./minishell 2>&-)
 	# TEST1=$(./minishell $0)
 	# TEST1=$(./minishell exit)
-	./minishell -c "ls"
-	# TEST1=$(ls)
+	TEST1=$(./minishell -c "ls")
 	echo $TEST1
 	TEST2=$(echo $@ "; exit" | bash 2>&-)
 	echo $TEST2
