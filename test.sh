@@ -10,7 +10,7 @@ cd ../Minishell_tester
 cp ../minishell/minishell .
 ./minishell
 
-printf "$BOLDMAGENTA __  __ _____ _   _ _____  _____ _    _ ______ _      _      \n"
+printf "$BLUE __  __ _____ _   _ _____  _____ _    _ ______ _      _      \n"
 printf "|  \/  |_   _| \ | |_   _|/ ____| |  | |  ____| |    | |     \n"
 printf "| \  / | | | |  \| | | | | (___ | |__| | |__  | |    | |     \n"
 printf "| |\/| | | | | . \` | | |  \___ \|  __  |  __| | |    | |     \n"
