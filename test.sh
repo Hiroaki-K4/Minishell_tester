@@ -1,4 +1,5 @@
 
+RESET="\033[0m"
 BOLDMAGENTA="\033[1m\033[35m"
 echo -e "\e[36m水色（シアン）"
 
